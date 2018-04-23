@@ -11,7 +11,10 @@
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    <preference name="splashscreen" value="foo" />
+    <preference name="splashscreen" value="screen" />
+    <preference name="SplashScreenDelay" value="5000" />
+
+    <plugin name="cordova-plugin-splashscreen" source="npm" />
 
         <platform name="android">
             <icon density="ldpi" src="res/icons/android/drawable-ldpi-icon.png" />
@@ -32,6 +35,6 @@
             <splash density="port-xhdpi" src="res/screens/android/drawable-port-xhdpi-screen.png" />
             <splash density="port-xxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
             <splash density="port-xxxhdpi" src="res/screens/android/drawable-port-xxxhdpi-screen.png" />
-</platform>
+        </platform>
 </widget>
 

@@ -31,6 +31,6 @@
             <splash density="port-xhdpi" src="res/screens/android/drawable-port-xhdpi-screen.png" />
             <splash density="port-xxhdpi" src="res/screens/android/drawable-port-xxhdpi-screen.png" />
             <splash density="port-xxxhdpi" src="res/screens/android/drawable-port-xxxhdpi-screen.png" />
-        </platform>
+</platform>
 </widget>
 

@@ -11,6 +11,7 @@
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+    <preference name="splashscreen" value="foo" />
 
         <platform name="android">
             <icon density="ldpi" src="res/icons/android/drawable-ldpi-icon.png" />
